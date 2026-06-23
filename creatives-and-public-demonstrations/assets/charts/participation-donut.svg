@@ -1,0 +1,27 @@
+<svg width="960" height="620" viewBox="0 0 960 620" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Demonstration participation mix</title>
+  <desc id="desc">Physical participation 43.2 percent, non-physical participation 25 percent, and non-participation 31.8 percent.</desc>
+  <rect width="960" height="620" rx="36" fill="#FFFFFF"/>
+  <circle cx="280" cy="310" r="150" stroke="#F4F1EA" stroke-width="36"/>
+  <circle cx="280" cy="310" r="150" stroke="#99B72C" stroke-width="36" stroke-linecap="round" stroke-dasharray="407 943" transform="rotate(-90 280 310)"/>
+  <circle cx="280" cy="310" r="150" stroke="#F98D29" stroke-width="36" stroke-linecap="round" stroke-dasharray="236 1114" stroke-dashoffset="-407" transform="rotate(-90 280 310)"/>
+  <circle cx="280" cy="310" r="150" stroke="#EE4136" stroke-width="36" stroke-linecap="round" stroke-dasharray="300 1050" stroke-dashoffset="-643" transform="rotate(-90 280 310)"/>
+  <text x="280" y="292" text-anchor="middle" font-family="Montserrat, Arial, sans-serif" font-size="28" font-weight="800" fill="#111111">68.2%</text>
+  <text x="280" y="328" text-anchor="middle" font-family="Montserrat, Arial, sans-serif" font-size="16" font-weight="700" fill="#5E5E5E">participated</text>
+
+  <rect x="520" y="160" width="28" height="28" rx="8" fill="#99B72C"/>
+  <text x="564" y="182" font-family="Montserrat, Arial, sans-serif" font-size="18" font-weight="700" fill="#111111">Physical participation</text>
+  <text x="862" y="182" text-anchor="end" font-family="Montserrat, Arial, sans-serif" font-size="18" font-weight="800" fill="#111111">43.2%</text>
+
+  <rect x="520" y="230" width="28" height="28" rx="8" fill="#F98D29"/>
+  <text x="564" y="252" font-family="Montserrat, Arial, sans-serif" font-size="18" font-weight="700" fill="#111111">Non-physical participation</text>
+  <text x="862" y="252" text-anchor="end" font-family="Montserrat, Arial, sans-serif" font-size="18" font-weight="800" fill="#111111">25.0%</text>
+
+  <rect x="520" y="300" width="28" height="28" rx="8" fill="#EE4136"/>
+  <text x="564" y="322" font-family="Montserrat, Arial, sans-serif" font-size="18" font-weight="700" fill="#111111">Non-participation</text>
+  <text x="862" y="322" text-anchor="end" font-family="Montserrat, Arial, sans-serif" font-size="18" font-weight="800" fill="#111111">31.8%</text>
+
+  <text x="520" y="390" font-family="Montserrat, Arial, sans-serif" font-size="26" font-weight="700" fill="#111111">Participation is broad, not binary.</text>
+  <text x="520" y="424" font-family="Montserrat, Arial, sans-serif" font-size="16" font-weight="500" fill="#5E5E5E">Support, caution, and online expression</text>
+  <text x="520" y="450" font-family="Montserrat, Arial, sans-serif" font-size="16" font-weight="500" fill="#5E5E5E">are part of the civic picture.</text>
+</svg>

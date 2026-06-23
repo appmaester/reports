@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reports - Utetezi Arts & Insights</title>
+  <meta name="description" content="Reports portal for Utetezi Arts & Insights research, surveys, analysis, and public knowledge resources.">
+
+  <link rel="icon" type="image/svg+xml" href="./assets/images/utetezi_brand_icon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./assets/css/portal.css?v=20260622-12">
+</head>
+<body>
+  <header class="portal-header">
+    <a class="brand" href="./" aria-label="Utetezi Reports home">
+      <img src="./assets/images/utetezi.org_main_branding_colour_inverse_landscape_logo.svg" alt="Utetezi Arts & Insights Logo" aria-hidden="true">
+    </a>
+
+    <nav class="portal-nav" aria-label="Portal navigation">
+      <a href="https://utetezi.org/" target="_blank" rel="noreferrer">Main Site ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-inner">
+        <p class="kicker">Reports Portal</p>
+        <h1>Research, analysis, and public knowledge from Utetezi Arts & Insights.</h1>
+        <p class="hero-note">
+          A growing archive of public reports at the intersection of creativity and critical inquiry.
+        </p>
+      </div>
+    </section>
+
+    <section class="controls" aria-label="Report filters">
+      <div class="search-wrap">
+        <label for="report-search">Search reports</label>
+        <input id="report-search" type="search" placeholder="Search by title, topic, tag, or year">
+      </div>
+
+      <div class="filter-wrap">
+        <span>Filter by category</span>
+        <div class="filter-buttons" id="category-filters" aria-label="Category filters">
+          <button class="filter-button is-active" type="button" data-category="All">All</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="reports-section" aria-label="Available reports">
+      <div class="section-heading">
+        <h2>Available Reports</h2>
+        <p id="report-count">Loading reports...</p>
+      </div>
+
+      <div class="report-grid" id="report-grid"></div>
+
+      <div class="empty-state" id="empty-state" hidden>
+        <h3>No reports found</h3>
+        <p>Try another search term or category filter.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="portal-footer">
+    <p>© Utetezi Arts & Insights. Reports may be shared with proper attribution.</p>
+  </footer>
+
+  <script src="./assets/js/portal.js"></script>
+</body>
+</html>

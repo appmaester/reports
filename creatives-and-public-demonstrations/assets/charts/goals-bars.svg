@@ -1,0 +1,54 @@
+<svg width="960" height="620" viewBox="0 0 960 620" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Envisioned changes and goals for the creative sector</title>
+  <desc id="desc">Freedom of expression 16, government funding and grants 12, recognition of art as essential to national development 11, accountability for institutions 10, fair pay and working conditions 9, cultural policies 9, increased respect 7, inclusion in policy dialogues 6, justice for harmed creatives 6, access to education and training 5, unions or associations 5, decentralization beyond major cities 4.</desc>
+  <rect width="960" height="620" rx="36" fill="#FFFFFF"/>
+  <text x="56" y="70" font-family="Montserrat, Arial, sans-serif" font-size="28" font-weight="700" fill="#111111">Top aspirations</text>
+  <text x="56" y="100" font-family="Montserrat, Arial, sans-serif" font-size="16" font-weight="500" fill="#5E5E5E">Number of mentions in the goal selection question.</text>
+
+  <g font-family="Montserrat, Arial, sans-serif" font-size="14" font-weight="700" fill="#111111">
+    <text x="56" y="150">Freedom of expression without fear</text>
+    <rect x="380" y="128" width="520" height="22" rx="11" fill="#F4F1EA"/>
+    <rect x="380" y="128" width="160" height="22" rx="11" fill="#EE4136"/>
+    <text x="914" y="145" text-anchor="end">16</text>
+
+    <text x="56" y="190">Funding and grants that reach artists</text>
+    <rect x="380" y="168" width="520" height="22" rx="11" fill="#F4F1EA"/>
+    <rect x="380" y="168" width="120" height="22" rx="11" fill="#F98D29"/>
+    <text x="914" y="185" text-anchor="end">12</text>
+
+    <text x="56" y="230">Art as essential to development</text>
+    <rect x="380" y="208" width="520" height="22" rx="11" fill="#F4F1EA"/>
+    <rect x="380" y="208" width="110" height="22" rx="11" fill="#99B72C"/>
+    <text x="914" y="225" text-anchor="end">11</text>
+
+    <text x="56" y="270">Accountability for institutions</text>
+    <rect x="380" y="248" width="520" height="22" rx="11" fill="#F4F1EA"/>
+    <rect x="380" y="248" width="100" height="22" rx="11" fill="#111111"/>
+    <text x="914" y="265" text-anchor="end">10</text>
+
+    <text x="56" y="310">Fair pay and decent working conditions</text>
+    <rect x="380" y="288" width="520" height="22" rx="11" fill="#F4F1EA"/>
+    <rect x="380" y="288" width="90" height="22" rx="11" fill="#F98D29"/>
+    <text x="914" y="305" text-anchor="end">9</text>
+
+    <text x="56" y="350">Cultural policies that protect the arts</text>
+    <rect x="380" y="328" width="520" height="22" rx="11" fill="#F4F1EA"/>
+    <rect x="380" y="328" width="90" height="22" rx="11" fill="#99B72C"/>
+    <text x="914" y="345" text-anchor="end">9</text>
+
+    <text x="56" y="390">Increased respect and legitimacy</text>
+    <rect x="380" y="368" width="520" height="22" rx="11" fill="#F4F1EA"/>
+    <rect x="380" y="368" width="70" height="22" rx="11" fill="#EE4136"/>
+    <text x="914" y="385" text-anchor="end">7</text>
+
+    <text x="56" y="430">Inclusion in national policy dialogues</text>
+    <rect x="380" y="408" width="520" height="22" rx="11" fill="#F4F1EA"/>
+    <rect x="380" y="408" width="60" height="22" rx="11" fill="#F98D29"/>
+    <text x="914" y="425" text-anchor="end">6</text>
+
+    <text x="56" y="470">Justice for creatives harmed by activism</text>
+    <rect x="380" y="448" width="520" height="22" rx="11" fill="#F4F1EA"/>
+    <rect x="380" y="448" width="60" height="22" rx="11" fill="#99B72C"/>
+    <text x="914" y="465" text-anchor="end">6</text>
+  </g>
+</svg>

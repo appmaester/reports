@@ -1,0 +1,27 @@
+<svg width="960" height="620" viewBox="0 0 960 620" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Impact on ability to create, perform, or earn from craft</title>
+  <desc id="desc">Negative impact 63.3 percent, positive impact 3.1 percent, none 33.7 percent.</desc>
+  <rect width="960" height="620" rx="36" fill="#FFFFFF"/>
+  <text x="56" y="70" font-family="Montserrat, Arial, sans-serif" font-size="28" font-weight="700" fill="#111111">Impact on work</text>
+  <text x="56" y="100" font-family="Montserrat, Arial, sans-serif" font-size="16" font-weight="500" fill="#5E5E5E">Effect of demonstrations on creative output and income.</text>
+
+  <g font-family="Montserrat, Arial, sans-serif" font-size="16" font-weight="700" fill="#111111">
+    <text x="56" y="190">Negative</text>
+    <rect x="220" y="166" width="660" height="34" rx="17" fill="#F4F1EA"/>
+    <rect x="220" y="166" width="418" height="34" rx="17" fill="#EE4136"/>
+    <text x="914" y="189" text-anchor="end">63.3%</text>
+
+    <text x="56" y="286">Positive</text>
+    <rect x="220" y="262" width="660" height="34" rx="17" fill="#F4F1EA"/>
+    <rect x="220" y="262" width="20" height="34" rx="17" fill="#F98D29"/>
+    <text x="914" y="285" text-anchor="end">3.1%</text>
+
+    <text x="56" y="382">None</text>
+    <rect x="220" y="358" width="660" height="34" rx="17" fill="#F4F1EA"/>
+    <rect x="220" y="358" width="222" height="34" rx="17" fill="#99B72C"/>
+    <text x="914" y="381" text-anchor="end">33.7%</text>
+  </g>
+
+  <text x="56" y="500" font-family="Montserrat, Arial, sans-serif" font-size="26" font-weight="700" fill="#111111">Most creatives report disruption rather than benefit.</text>
+  <text x="56" y="534" font-family="Montserrat, Arial, sans-serif" font-size="16" font-weight="500" fill="#5E5E5E">The main cost is not only political pressure, but reduced ability to work and earn.</text>
+</svg>
