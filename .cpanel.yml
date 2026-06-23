@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/utetezio/public_html/reports/
+    - /bin/mkdir -p $DEPLOYPATH
+    - /bin/rsync -av --delete --exclude='.git' --exclude='.cpanel.yml' --exclude='cgi-bin' --exclude='.well-known' ./ $DEPLOYPATH
