@@ -75,7 +75,7 @@
 ErrorDocument 404 /index.html
 
 # Protect sensitive files
-<FilesMatch "^(reports\.json|\.htaccess|\.env)$">
+<FilesMatch "^(\.htaccess|\.env)$">
   Order allow,deny
   Deny from all
 </FilesMatch>
