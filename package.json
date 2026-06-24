@@ -1,0 +1,16 @@
+{
+  "name": "utetezi-reports-portal",
+  "version": "1.0.0",
+  "description": "Utetezi Arts & Insights Reports Portal",
+  "scripts": {
+    "generate-sitemap": "node generate-sitemap.js",
+    "predeploy": "npm run generate-sitemap"
+  },
+  "keywords": [
+    "utetezi",
+    "reports",
+    "seo",
+    "sitemap"
+  ],
+  "author": "Utetezi Arts & Insights"
+}

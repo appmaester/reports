@@ -21,6 +21,7 @@
     card.className = report.featured ? "report-card is-featured" : "report-card";
 
     const tags = Array.isArray(report.tags) ? report.tags : [];
+    const imageUrl = report.image || "./assets/images/utetezi.org_main_branding_colour_landscape_logo.svg";
 
     card.innerHTML = `
       <div class="report-meta">
@@ -38,13 +39,39 @@
 
       <div class="card-actions">
         <a class="button primary" href="${report.url}">Open Report</a>
-        ${
-          report.pdfUrl
-            ? `<a class="button secondary" href="${report.pdfUrl}" download> Full Report (Academic Version)</a>`
-            : ""
-        }
+        ${report.pdfUrl
+        ? `<a class="button secondary" href="${report.pdfUrl}" download> Full Report (Academic Version)</a>`
+        : ""
+      }
       </div>
     `;
+
+    // Add structured data for individual report
+    const structuredData = {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": report.title || "Untitled Report",
+      "description": report.description || "",
+      "image": imageUrl.startsWith("http") ? imageUrl : `https://reports.utetezi.org/${imageUrl.replace(/^\.\//, "")}`,
+      "author": {
+        "@type": "Organization",
+        "name": report.author || report.publisher || "Utetezi Arts & Insights"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": report.publisher || "Utetezi Arts & Insights"
+      },
+      "datePublished": report.publishDate || report.year || "",
+      "dateModified": report.modifiedDate || report.publishDate || report.year || "",
+      "url": report.canonicalUrl || (report.url.startsWith("http") ? report.url : `https://reports.utetezi.org/${report.url.replace(/^\.\//, "")}`),
+      "keywords": tags.join(", ") || "",
+      "articleSection": report.category || "Reports"
+    };
+
+    const scriptElement = document.createElement("script");
+    scriptElement.type = "application/ld+json";
+    scriptElement.textContent = JSON.stringify(structuredData);
+    card.appendChild(scriptElement);
 
     return card;
   }

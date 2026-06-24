@@ -1,0 +1,20 @@
+# robots.txt for Utetezi Arts & Insights Reports Portal
+# Allow search engines to crawl the reports portal
+
+User-agent: *
+Allow: /
+
+# Disallow sensitive or admin areas (if any exist in future)
+Disallow: /cgi-bin/
+Disallow: /.well-known/
+Disallow: /.cpanel.yml
+Disallow: /.htaccess
+Disallow: /.DS_Store
+Disallow: /.git
+Disallow: /.gitignore
+
+# Reference to sitemap
+Sitemap: https://reports.utetezi.org/sitemap.xml
+
+# Crawl-delay (optional, adjust based on server capacity)
+# Crawl-delay: 1

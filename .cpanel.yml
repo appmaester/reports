@@ -3,6 +3,7 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/utetezio/public_html/reports/
     - /bin/mkdir -p $DEPLOYPATH
-    - /bin/rsync -av --exclude='.git' --exclude='.cpanel.yml' --exclude='cgi-bin' --exclude='.well-known' ./ $DEPLOYPATH
+    - /bin/rsync -av --exclude='.git' --exclude='.cpanel.yml' --exclude='cgi-bin' --exclude='.well-known' --exclude='node_modules' --exclude='package.json' --exclude='package-lock.json' --exclude='generate-sitemap.js' ./ $DEPLOYPATH
     - /bin/find $DEPLOYPATH -type d -exec chmod 755 {} \;
     - /bin/find $DEPLOYPATH -type f -exec chmod 644 {} \;
+    - /bin/chmod 644 $DEPLOYPATH/.htaccess
